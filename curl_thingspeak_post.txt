@@ -1,0 +1,5 @@
+curl --verbose --request "http://api.thingspeak.com/update.json"
+--header "host:api.thingspeak.com" ^
+--header "Connection: close" ^
+--header "Content-Type: application/x-www-form-urlencoded" ^
+--data "api_key=JEV5BGNOPUC2GRTE&field1=4.0&field2=5.0"
